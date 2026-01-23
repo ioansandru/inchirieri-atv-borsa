@@ -1176,6 +1176,42 @@ body {
 .package-actions .btn-secondary {
     opacity: 0.85;
 }
+
+.modal-social {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+	justify-content: start;
+	margin-top: 18px;
+}
+
+.modal-social a {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 14px;
+	border-radius: 999px;
+	background: #1e1e1e;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: .3px;
+	transition: background .2s ease, transform .2s ease;
+}
+
+.modal-social a:hover {
+	background: #009688;
+	transform: translateY(-2px);
+}
+
+.modal-social .material-icons {
+	font-size: 20px;
+}
+
+.modal-social .label {
+	white-space: nowrap;
+}
+
 @media (max-width: 900px) {
     section {
         padding-left: 20px !important;
