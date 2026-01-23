@@ -360,7 +360,7 @@ body {
 /* PAGE HERO (INNER PAGES) */
 .page-hero {
     height: 100vh;
-    background: url("Images/trasee-hero.png") center  / cover no-repeat;
+    background: url("Images/trasee-hero.webp") center  / cover no-repeat;
     position: relative;
     padding-top: 70px;
 }
@@ -931,7 +931,7 @@ body {
     position: relative;
     width: 100%;
     min-height: 460px;
-    background: url("Images/pricing-hero.jfif") center / cover no-repeat;
+    background: url("Images/pricing-hero.webp") center / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
