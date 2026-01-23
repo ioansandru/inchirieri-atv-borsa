@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie ATV | ATV DE INCHIRIAT</title>
+
+    <link rel="stylesheet" href="Resources/styles.css">
+
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<header class="topbar">
+    <div class="topbar-inner">
+        <button class="menu-toggle" aria-label="Deschide meniul">
+            <span class="material-icons">menu</span>
+        </button>
+
+        <a href="/" class="brand">ATV DE INCHIRIAT</a>
+
+        <nav class="nav-links">
+            <a href="trasee.html">
+                <span class="material-icons">route</span>
+                Trasee
+            </a>
+            <a href="tarife.html">
+                <span class="material-icons">payments</span>
+                Tarife
+            </a>
+            <a href="galerie.html">
+                <span class="material-icons">photo_library</span>
+                Galerie
+            </a>
+            <a href="contact.html">
+                <span class="material-icons">call</span>
+                Contact
+            </a>
+        </nav>
+
+        <div class="contact">
+            <span class="material-icons">call</span>
+            <a href="tel:+40 743 252 179">0743 252 179</a>
+        </div>
+    </div>
+
+    <div class="mobile-menu">
+        <a href="trasee.html">Trasee</a>
+        <a href="tarife.html">Tarife</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</header>
+
+<section class="page-heading">
+    <h1>Imagini și video din trasee</h1>
+    <p>
+        Momente surprinse pe traseele noastre ATV,
+        în diferite condiții și anotimpuri.
+    </p>
+</section>
+
+
+<section class="gallery-showcase">
+
+	<div class="showcase-slide active">
+		<img src="Resources/Images/gallery-1.jfif" alt="ATV off-road Borșa">
+		<div class="showcase-caption">
+			<h2>Trasee ATV în Borșa</h2>
+			<p>Experiențe off-road ghidate pe trasee montane din Maramureș</p>
+		</div>
+	</div>
+
+	<div class="showcase-slide">
+		<img src="Resources/Images/gallery-2.jfif" alt="ATV noroi Maramureș">
+		<div class="showcase-caption">
+			<h2>Noroi și teren variat</h2>
+			<p>Trasee diferite în funcție de anotimp și condițiile meteo</p>
+		</div>
+	</div>
+
+	<div class="showcase-slide">
+		<img src="Resources/Images/gallery-3.jfif" alt="ATV munte Borșa">
+		<div class="showcase-caption">
+			<h2>Off-road montan</h2>
+			<p>Urcări, coborâri și drumuri forestiere în zona Borșa</p>
+		</div>
+	</div>
+
+	<div class="showcase-slide">
+		<img src="Resources/Images/gallery-4.jfif" alt="ATV traseu ghidat">
+		<div class="showcase-caption">
+			<h2>Tururi ATV ghidate</h2>
+			<p>Trasee adaptate nivelului de experiență și duratei alese</p>
+		</div>
+	</div>
+
+    <div class="showcase-controls">
+        <button class="prev"><span class="material-icons">chevron_left</span></button>
+        <button class="next"><span class="material-icons">chevron_right</span></button>
+    </div>
+
+</section>
+
+<section class="gallery-intro">
+    <p>
+        Galeria reflectă exact ce se întâmplă pe trasee.
+        Condiții reale, teren variat și experiențe diferite,
+        în funcție de anotimp și nivelul de dificultate.
+    </p>
+</section>
+
+<section class="gallery-videos">
+
+    <!-- VIDEO 1 -->
+    <section class="traseu-row">
+		<div class="traseu-image video-container">
+
+			<!-- BLUR BACKGROUND -->
+			<video class="video-bg"
+				   autoplay muted loop playsinline>
+				<source src="Resources/Images/gallery-video.mp4" type="video/mp4">
+			</video>
+
+			<!-- FRAME FIX -->
+			<div class="video-frame">
+				<video class="video-main"
+					   autoplay muted loop playsinline>
+					<source src="Resources/Images/gallery-video.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+
+
+        <div class="traseu-info">
+            <h2>Trasee ATV în condiții reale</h2>
+            <p>
+                Fiecare tur ATV se desfășoară în condiții naturale,
+                indiferent de anotimp.
+                Noroi, zăpadă sau teren uscat — experiența este diferită
+                de fiecare dată.
+            </p>
+
+            <ul>
+                <li>Dificultate variabilă</li>
+                <li>Trasee adaptate sezonului</li>
+                <li>Ghid prezent pe tot parcursul</li>
+            </ul>
+
+            <a href="tel:+40 743 252 179" class="btn-secondary">
+                <span class="material-icons">call</span>
+                Sună acum
+            </a>
+        </div>
+    </section>
+
+    <!-- VIDEO 2 -->
+    <section class="traseu-row reverse">
+		<div class="traseu-image video-container">
+
+			<!-- BLUR BACKGROUND -->
+			<video class="video-bg"
+				   autoplay muted loop playsinline>
+				<source src="Resources/Images/gallery-video-2.mp4" type="video/mp4">
+			</video>
+
+			<!-- FRAME FIX -->
+			<div class="video-frame">
+				<video class="video-main"
+					   autoplay muted loop playsinline>
+					<source src="Resources/Images/gallery-video-2.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+
+        <div class="traseu-info">
+            <h2>De la trasee medii la off-road intens</h2>
+            <p>
+                Organizăm trasee ATV pentru toate nivelurile,
+                de la plimbări controlate până la trasee solicitante
+                pentru cei care caută adrenalină reală.
+            </p>
+
+            <ul>
+                <li>Potrivit pentru începători și avansați</li>
+                <li>Echipament inclus</li>
+                <li>Experiență ghidată</li>
+            </ul>
+
+            <a href="tel:+40700000000" class="btn-secondary">
+                <span class="material-icons">call</span>
+                Sună acum
+            </a>
+        </div>
+    </section>
+
+</section>
+
+
+
+<footer class="footer">
+    <p id="footer-text">© #### ATV Rental. Placeholder footer text.</p>
+</footer>
+
+<a href="tel:+40 743 252 179" class="mobile-call">
+    <span class="material-icons">call</span>
+    Sună acum
+</a>
+
+
+<div class="image-modal" id="imageModal">
+    <div class="modal-backdrop"></div>
+
+    <div class="modal-content">
+        <button class="modal-close" aria-label="Închide">
+            <span class="material-icons">close</span>
+        </button>
+
+        <img id="modalImage" src="" alt="ATV imagine mare">
+
+        <a href="tel:+40 743 252 179" class="btn-primary modal-call">
+            <span class="material-icons">call</span>
+            Sună acum
+        </a>
+    </div>
+</div>
+<script src="Resources/app.js"></script>
+
+</body>
+</html>
