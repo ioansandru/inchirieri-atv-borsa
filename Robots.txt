@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.atvdeinchiriat.com/sitemap.xml
+Sitemap: https://atvdeinchiriat.com/sitemap.xml
